@@ -1,6 +1,29 @@
-venv/
-__pycache__/
-db.sqlite3
-.env
+# Python
 *.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual Environment
+venv/
+
+# Django
+db.sqlite3
 *.log
+*.pot
+*.pyc
+*.pyo
+
+# Environment variables file
+.env
+
+# Media and static files
+media/
+static/
+
+# IDE or Editor config files
+.idea/
+.vscode/
+
+# Backup files
+*~
